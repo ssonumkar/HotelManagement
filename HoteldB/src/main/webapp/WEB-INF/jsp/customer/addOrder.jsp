@@ -82,7 +82,7 @@ function saveSelectedItems(){
 			  var txt1=document.createElement('input');
 			  txt1.value=checkboxes[i].value.split(",")[0];
 			  txt1.name="items";
-			  txt1.disabled=false;
+			  txt1.setAttribute("readonly","readonly");
 			  td1.appendChild(txt1);
 			 
 
@@ -90,7 +90,7 @@ function saveSelectedItems(){
 			  var txt2=document.createElement('input');
 			  txt2.value=checkboxes[i].value.split(",")[1];
 			  txt2.name="price";
-			  txt2.disabled=false;
+			  txt2.setAttribute("readonly","readonly");
 			  td2.appendChild(txt2);
 			 
 			  var td3 = document.createElement('td');

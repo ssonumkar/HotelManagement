@@ -32,10 +32,10 @@
 										      <c:forEach var="item" items="${customer.getBill().getOrderItems()}">
 										      <tr >
 											      <c:if test="${customer.flag==1}">
-						         						<td ><input>${item.item}</<input></td>
-										    			<td> <input>${item.price}</<input></td>
-										    			<td><input> ${item.quantity}</<input></td>
-										    			<td><input> ${item.price*item.quantity}</<input></td>
+						         						<td ><input value="${item.item}" readonly></td>
+										    			<td> <input value="${item.price} " readonly></td>
+										    			<td><input value="${item.quantity}" readonly></td>
+										    			<td><input value="${item.price*item.quantity}" readonly></td>
 											         </c:if>
 											      		<c:if test="${customer.flag==0}">
 
@@ -53,7 +53,7 @@
 					     				 </table>	
         							</td></tr>
     </table>
-    <c:if test="${flag=='customer'}">
+    <c:if test="${customer.flag == 1}">
     <a class="btn btn-secondary" href="addOrderTemplate?tableNo=${customer.tableNo}" id="edit">Edit Order</a>
     <button class="btn btn-secondary" type="submit" id="bill">Create Bill</button>
    	</c:if>
