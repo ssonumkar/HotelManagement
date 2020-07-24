@@ -19,44 +19,44 @@
 	</properties>
 
 	<dependencies>
-	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-devtools</artifactId>
-    <version>2.2.4.RELEASE</version>
-</dependency>
-	<!-- https://mvnrepository.com/artifact/com.google.code.tld-generator/tld-generator -->
-<dependency>
-    <groupId>com.google.code.tld-generator</groupId>
-    <artifactId>tld-generator</artifactId>
-    <version>1.1</version>
-</dependency>
+			<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+			<dependency>
+			    <groupId>org.springframework.boot</groupId>
+			    <artifactId>spring-boot-devtools</artifactId>
+			    <version>2.2.4.RELEASE</version>
+			</dependency>
+				<!-- https://mvnrepository.com/artifact/com.google.code.tld-generator/tld-generator -->
+			<dependency>
+			    <groupId>com.google.code.tld-generator</groupId>
+			    <artifactId>tld-generator</artifactId>
+			    <version>1.1</version>
+			</dependency>
+				
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-data-jpa</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-web</artifactId>
+			</dependency>
+			<dependency>
+	         <groupId>org.apache.tomcat.embed</groupId>
+	         <artifactId>tomcat-embed-jasper</artifactId>
+	         <scope>provided</scope>
+	      </dependency>	
+			<dependency>
+			    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.18</version>
+				</dependency>
 	
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-         <groupId>org.apache.tomcat.embed</groupId>
-         <artifactId>tomcat-embed-jasper</artifactId>
-         <scope>provided</scope>
-      </dependency>	
-<dependency>
-	    <groupId>mysql</groupId>
-	    <artifactId>mysql-connector-java</artifactId>
-	    <version>8.0.18</version>
-	</dependency>
 	
-	
-	<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>bootstrap</artifactId>
-			<version>3.3.7</version>
-	</dependency>
+			<dependency>
+					<groupId>org.webjars</groupId>
+					<artifactId>bootstrap</artifactId>
+					<version>3.3.7</version>
+			</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -77,12 +77,12 @@
 		</dependency>
 
  
-<!-- https://mvnrepository.com/artifact/taglibs/standard -->
-<dependency>
-    <groupId>taglibs</groupId>
-    <artifactId>standard</artifactId>
-    <version>1.1.2</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/taglibs/standard -->
+		<dependency>
+		    <groupId>taglibs</groupId>
+		    <artifactId>standard</artifactId>
+		    <version>1.1.2</version>
+		</dependency>
 
 
 	</dependencies>
